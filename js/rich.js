@@ -47,3 +47,9 @@ function slowScroll (id) {
     }, 800);
     return false;
 };
+$('.btn.open').click(function() {
+    $('.modal-container').addClass('active');
+});
+$('.close').click(function() {
+    $('.modal-container').removeClass('active');
+});
